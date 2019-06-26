@@ -1,0 +1,104 @@
+.user-profile-page {
+    padding-right: 16px!important;
+    padding-left: 16px!important;
+    margin-top: 24px!important;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-profile-container {
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.user-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 6px!important;
+}
+
+.user-name {
+    margin-bottom: 5px;
+}
+
+.user-desc {
+    margin: 0;
+    color: #4a4a4a;
+}
+
+.user-repos {
+    display: inline-block;
+    width: calc(100% - 350px);
+    vertical-align: text-top;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.table-list {
+    margin: 0;
+}
+
+.table-list li div p:first-child {
+    font-weight: 600!important;
+}
+
+.user-repos .table-list li:first-child{
+    border-top: 0;
+}
+
+h3 {
+    color: #0366d6;
+}
+
+.table-list li ul li {
+    display: inline-block;
+}
+
+.user-repos .table-list li ul {
+    padding-left: 0px;
+}
+
+.user-repos .table-list li ul li {
+    border: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.user-repos .table-list li h3 {
+    margin: 0 0 7px;
+}
+
+.user-repos .table-list li p {
+    margin: 0 0 10px;
+}
+
+.user-repos .table-list li ul li {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lang-color {
+    background-color: #563d7c;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.table-list li .star-gazers {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.forks {
+    width: 10px;
+    height: 16px;
+    margin-right: 5px;
+}
